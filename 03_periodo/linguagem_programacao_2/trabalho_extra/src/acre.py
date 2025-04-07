@@ -1,13 +1,13 @@
-import pandas as pd # type: ignore
+import pandas as pd  # type: ignore
 
-file_path =  "/home/luis-bernartt/faculdade/03_periodo/linguagem_programacao_2/trabalho_extra/repository/cidades_do_brasil.csv"
+class AcrePopulacao:
+    def __init__(self, file_path: str):
+        self.file_path = file_path
+        self.dados = pd.read_csv(self.file_path, sep=',')
 
-dados = pd.read_csv(file_path, sep=',')
-
-total_pop = 0
-
-for index, row in dados.iterrows():
-    if row['STATE'] == 'AC':
-        total_pop += int(row['IBGE_POP'])
-
-print(f'A população do Acre é: {total_pop}')
+    def calcular_populacao(self) -> int:
+        total_pop = 0
+        for _, row in self.dados.iterrows():
+            if row['STATE'] == 'AC':
+                total_pop += int(row['IBGE_POP'])
+        return total_pop
