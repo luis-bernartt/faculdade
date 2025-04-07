@@ -1,6 +1,6 @@
 import pandas as pd # type: ignore
 
-file_path =  "/home/luis-bernartt/faculdade/linguagem_programacao_2/trabalho_extra/csv/cidades_do_brasil.csv"
+file_path =  "/home/luis-bernartt/faculdade/linguagem_programacao_2/trabalho_extra/repository/cidades_do_brasil.csv"
 
 dados = pd.read_csv(file_path, sep=',')
 
