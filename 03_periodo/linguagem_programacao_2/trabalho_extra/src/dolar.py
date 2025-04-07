@@ -1,16 +1,17 @@
-import pandas as pd # type: ignore
+import pandas as pd  # type: ignore
 
-file_path =  "/home/luis-bernartt/faculdade/03_periodo/linguagem_programacao_2/trabalho_extra/repository/dolar.csv"
-dados = pd.read_csv(file_path, sep=';')
+class DolarMedia:
+    def __init__(self, file_path: str):
+        self.file_path = file_path
+        self.dados = pd.read_csv(self.file_path, sep=';')
 
-count = 0
-total = 0
+    def media_dolar_ano(self, ano: str) -> float:
+        count = 0
+        total = 0.0
 
-for index, row in dados.iterrows():
-    if row['data'].startswith('2010'):
-        total += float(row['cotacaoCompra'])
-        count += 1
+        for _, row in self.dados.iterrows():
+            if row['data'].startswith(ano):
+                total += float(row['cotacaoCompra'])
+                count += 1
 
-total_media = total / count
-
-print(f'A média do dólar em 2010 é: {total_media:.2f}')
+        return total / count if count > 0 else 0.0
