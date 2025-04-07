@@ -22,5 +22,5 @@ Se você quiser trocar uma ideia, dar sugestões ou colaborar:
 ---
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=22&pause=1000&center=true&vCenter=true&width=435&lines=Desenvolvedor+backend+apaixonado+por+automação;Projetos+acadêmicos+em+constante+evolução;Engenharia+de+Software+%F0%9F%92%BB" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=22&pause=1000&center=true&vCenter=true&width=435&lines=Desenvolvedor+backend;Projetos+acadêmicos;Engenharia+de+Software+%F0%9F%92%BB" />
 </p>
