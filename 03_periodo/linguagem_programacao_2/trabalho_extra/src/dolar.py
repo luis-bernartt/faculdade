@@ -1,6 +1,6 @@
 import pandas as pd # type: ignore
 
-file_path =  "/home/luis-bernartt/faculdade/linguagem_programacao_2/trabalho_extra/repository/dolar.csv"
+file_path =  "/home/luis-bernartt/faculdade/03_periodo/linguagem_programacao_2/trabalho_extra/repository/dolar.csv"
 dados = pd.read_csv(file_path, sep=';')
 
 count = 0
