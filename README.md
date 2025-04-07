@@ -16,7 +16,7 @@
 Se você quiser trocar uma ideia, dar sugestões ou colaborar:
 
 - 📧 luis_bernartt@icloud.com  
-- 💼 [LinkedIn]([https://linkedin.com/in/luís%20henrique%20dallelaste%20bernartt](https://www.linkedin.com/in/lu%C3%ADs-henrique-dallelaste-bernartt-957811357?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app))
+- 💼 [LinkedIn](https://www.linkedin.com/in/lu%C3%ADs-henrique-dallelaste-bernartt-957811357?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app)
 - 🐦 [@ltdarwin](https://twitter.com/ltdarwin)
 
 ---
